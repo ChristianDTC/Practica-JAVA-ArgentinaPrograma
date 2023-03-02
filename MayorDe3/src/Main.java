@@ -11,7 +11,7 @@ public class Main {
         int numero3 = teclado.nextInt();
 
         System.out.println("PRIMERA OPCION");
-        if (numero1 == numero2 & numero1 == numero3){
+        if (numero1 == numero2 && numero1 == numero3){
             System.out.println("Los 3 números son iguales: " + numero1);
         }else{
             int numeroMayor = (numero1 > numero2)? numero1 : numero2;
